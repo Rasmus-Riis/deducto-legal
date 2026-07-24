@@ -17,7 +17,7 @@
 <body>
 
 <h1>Deducto Privacy Policy</h1>
-<p class="updated">Last updated: July 5, 2026</p>
+<p class="updated">Last updated: July 23, 2026</p>
 
 <p>Deducto ("the app", "we") is a receipt-scanning app that turns photos of
 receipts into a tax-ready expense spreadsheet. This policy explains what data
@@ -27,24 +27,26 @@ the app collects, why, and what happens to it.</p>
 <table>
   <tr><th>Data</th><th>Why</th><th>Where it lives</th></tr>
   <tr><td>Email address</td><td>Account creation and sign-in</td><td>Our database (Supabase, hosted in the United States)</td></tr>
-  <tr><td>Receipt photos you take</td><td>To extract the vendor, date, amount, and tax category</td><td>Private cloud storage, accessible only to your account</td></tr>
+  <tr><td>Receipt photos and documents you take, import, or share to the app (including PDFs)</td><td>To extract the vendor, date, amount, and tax category</td><td>Private cloud storage, accessible only to your account</td></tr>
   <tr><td>Extracted receipt data (vendor, date, amount, tax category)</td><td>To build your expense spreadsheet</td><td>Our database, accessible only to your account</td></tr>
   <tr><td>Onboarding answers (country, profession, receipt volume)</td><td>To tailor tax categories to your situation</td><td>Our database, accessible only to your account</td></tr>
   <tr><td>Subscription status</td><td>To verify your purchase</td><td>Processed by Apple and RevenueCat; we store only your entitlement state</td></tr>
 </table>
 
-<h2>AI processing of receipt photos</h2>
-<p>When you scan a receipt, the photo is transmitted securely to
-<strong>Anthropic</strong>, an AI provider, which reads the receipt and returns
-the extracted fields. This happens only after you explicitly consent inside the
-app, before your first scan. Photos sent for extraction are used solely to
-produce your receipt data.</p>
+<h2>AI processing of receipts</h2>
+<p>When you scan or import a receipt, the receipt (a photo, or the text of a
+PDF) is transmitted securely to an external AI provider &mdash;
+<strong>Anthropic</strong> and/or <strong>Google</strong> &mdash; which reads
+the receipt and returns the extracted fields. This happens only after you
+explicitly consent inside the app, before your first scan. Receipts sent for
+extraction are used solely to produce your receipt data and are not used by
+these providers to train their models.</p>
 
 <h2>What we don't do</h2>
 <ul>
   <li>We do <strong>not</strong> sell your data.</li>
   <li>We do <strong>not</strong> use your data for advertising, and the app contains no ad trackers.</li>
-  <li>We do <strong>not</strong> share your data with third parties beyond the service providers listed above (Supabase for storage, Anthropic for extraction, Apple/RevenueCat for payments).</li>
+  <li>We do <strong>not</strong> share your data with third parties beyond the service providers listed above (Supabase for storage, Anthropic and Google for extraction, Apple/RevenueCat for payments).</li>
 </ul>
 
 <h2>Payments</h2>
